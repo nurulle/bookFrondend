@@ -6,6 +6,8 @@ export default class DetailBook extends Component {
             <div>
                 Detail Book
             </div>
+
+            
         )
     }
 }

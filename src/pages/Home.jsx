@@ -5,8 +5,6 @@ import { Navbar,Form,FormControl,Button, Image, } from 'react-bootstrap'
 import image10 from '../assets/img/image10.png';
 import image13 from '../assets/img/image13.png';
 import image5 from '../assets/img/image5.png';
-import { FaBeer, FaSearch } from 'react-icons/fa';
-
 
 
 export default class Index extends Component {
@@ -21,23 +19,23 @@ export default class Index extends Component {
 
                     <div class="position-relative">
                     <Form inline>
-                        <FormControl type="text" placeholder="Search" img className="rounded-pill" alt="150x75" src="https://placehold.it/150x75" FaBeer >
-                        
+                        <FormControl type="text" placeholder="Search" img className="rounded-pill" alt="150x75" src="https://placehold.it/150x75">
+                        {/* <i className="fa FaSearch fa-lg position-absolute" style={{top : '13', right: '1rem', color: 'rgb(184, 182, 182)'}} ></i> */}
+   
                         </FormControl>
                     </Form>
                     </div>
 
 
                     <div class="text-center">
-                      <Link to="/"> 
                         <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616622142/logoPLUGIN_qsovpm_jmo8rn.png" alt width="50px" height="40px"></Image>
-                      </Link>
                     </div>
 
 
                     <div>
                         <Link to="/signin"> 
-                            <Button variant="outline-secondary" img className="rounded-pill" alt="150x75" src="https://placehold.it/150x75">Sign-In</Button>               
+                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" alt className="avatar" style={{verticalAlign: 'middle', width: 50, height: 50, borderRadius: 50}} />
+               
                         </Link> 
                     </div>
 
@@ -67,9 +65,13 @@ export default class Index extends Component {
                           <h5 className="card-title">At The Going Down of the Sun</h5>
                           <p className="card-text">Marius Oelsching</p>
                           <p className="card-text">
-                           
-                          
-                            
+                            <a>
+                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
+                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
+                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
+                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
+                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
+                            </a>
                           </p>
                         </div>
                       </div>
