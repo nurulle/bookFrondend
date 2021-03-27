@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Image} from 'react-bootstrap'
-
+import { Image, Button} from 'react-bootstrap'
+import {Link} from "react-router-dom"
 
 
 export default class Signin extends Component {
@@ -15,7 +15,12 @@ export default class Signin extends Component {
                   <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616622142/logoPLUGIN_qsovpm_jmo8rn.png" alt width="50px" height="40px" />
                   <h1 style={{color: 'white'}}>Hallo, Pluginers</h1>
                   <p style={{color: 'white', fontSize: 20, textAlign: 'center'}}>Enter your personal details <br /> and starts journey with us</p>
-                  <a href="signup.html" className="btn w-50" style={{border: '1px solid white', borderRadius: 20, height: 40, color: 'white', bottom: '50%'}}>Sign Up</a>
+
+                  <div>
+                    <Link to="/signup"> 
+                      <Button className="btn" style={{backgroundColor: '#1f81DF', border: '1px solid white',  borderRadius: 20, width: 220, height: 40, color: 'white', bottom: '50%'}}>Sign Up</Button>               
+                    </Link> 
+                  </div>                  
                 </div>
               </div>
 
@@ -30,14 +35,19 @@ export default class Signin extends Component {
                       <input type="password" className="form-control" placeholder="Password" style={{border: '1px solid color = #1f81DF', borderRadius: 30, height: 50, paddingLeft: 55, marginTop: '5vh'}} />
                       <i className="fa fa-eye-slash" aria-hidden="true" />
                     </div>
-                    <a href="home.html" className="btn" style={{backgroundColor: '#1f81DF', color: 'white', borderRadius: 30, width: 300, height: 40, marginTop: '5vh', marginLeft: '20vh'}}>Sign In</a>
+
+
+                    <div>
+                        <Link to="/home"> 
+                            <Button className="btn" style={{backgroundColor: '#1f81DF', color: 'white', borderRadius: 30, width: 300, height: 40, marginTop: '5vh', marginLeft: '20vh'}}>Sign-In</Button>               
+                        </Link> 
+                    </div>
+            
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-
 
         )
     }

@@ -22,7 +22,9 @@ export default class Waiting extends Component {
 
 
                     <div class="text-center">
+                      <Link to="/"> 
                         <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616622142/logoPLUGIN_qsovpm_jmo8rn.png" alt width="50px" height="40px"></Image>
+                      </Link>
                     </div>
 
 
@@ -39,44 +41,48 @@ export default class Waiting extends Component {
             </Navbar>  
 
             <div>
-  <div className="row" style={{marginLeft: '40vh', marginTop: '10vh', marginRight: '10vh'}}>
-    <div className="column">
-      <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627812/chunin/image12_l7znce.png" />
-    </div>
-    <div className="column" style={{marginLeft: '10vh'}}>
-      <h1> At the Going Down of the Sun</h1>
-      <a style={{fontSize: '5vh', color: 'gray'}}>Maruis Oelsching</a><br />
-      <a>
-        <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-        <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-        <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-        <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-        <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-      </a>
-      <table className="table" style={{marginTop: '5vh'}}>
-        <tbody>
-          <tr>
-            <th scope="row">Publisher</th>
-            <td>Gramedia Putaka Utama</td>
-          </tr>
-          <tr>
-            <th scope="row">ISBN</th>
-            <td>9786020385914</td>
-          </tr>
-          <tr>
-            <th scope="row">Pages</th>
-            <td>376 hlm</td>
-          </tr>
-        </tbody>
-      </table>
-      <button type="button" className="btn btn-primary" style={{borderRadius: 20, width: '15vh'}}><a href="borrowpage.html" style={{color: 'white'}}>Borrow</a></button>
-      <button type="button" className="btn btn-light" style={{borderRadius: 20, width: '15vh', color: '#1f81DF'}}>Chat</button>
-    </div>
-  </div>
+              <div className="row" style={{marginLeft: '40vh', marginTop: '10vh', marginRight: '10vh'}}>
+                <div className="column">
+                  <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627812/chunin/image12_l7znce.png" />
+                </div>
+                <div className="column" style={{marginLeft: '10vh'}}>
+                  <h1> At the Going Down of the Sun</h1>
+                  <a style={{fontSize: '5vh', color: 'gray'}}>Maruis Oelsching</a><br />
+                  {/* <a>
+                    <span className="fa fa-star checked" style={{color: '#FFB800'}} />
+                    <span className="fa fa-star checked" style={{color: '#FFB800'}} />
+                    <span className="fa fa-star checked" style={{color: '#FFB800'}} />
+                    <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
+                    <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
+                  </a> */}
+                  <table className="table" style={{marginTop: '5vh'}}>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Publisher</th>
+                        <td>Gramedia Putaka Utama</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">ISBN</th>
+                        <td>9786020385914</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Pages</th>
+                        <td>376 hlm</td>
+                      </tr>
+                    </tbody>
+                  </table>
 
-
- 
-</div>
+                  <Link to="/signin" style={{color: 'white'}}> 
+                      <Button type="button" className="btn btn-primary" style={{borderRadius: 20, width: '15vh'}}>Borrow</Button>               
+                  </Link> 
+                    
+                  <Link to="/signin">   
+                    <Button type="button" className="btn btn-light" style={{borderRadius: 20, width: '15vh', color: '#1f81DF'}}>Chat</Button>
+                  </Link>
+                  
+                </div>
+              </div>
+            </div>
 
             </>
         )
