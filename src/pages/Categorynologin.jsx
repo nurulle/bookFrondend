@@ -64,13 +64,7 @@ export default class Waiting extends Component {
                                 </Link> 
                               </div>
                 
-                              {/* <a>
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              </a> */}
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                             </div>
                           </div>
                         </div>
@@ -96,13 +90,7 @@ export default class Waiting extends Component {
                                   <p className="card-text">Marius Oelsching</p>
                                 </Link> 
                               </div>
-                              {/* <a>
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              </a> */}
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                             </div>
                           </div>
                         </div>
@@ -127,13 +115,7 @@ export default class Waiting extends Component {
                                   <p className="card-text">Marius Oelsching</p>
                                 </Link> 
                               </div>
-                              {/* <a>
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              </a> */}
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                             </div>
                           </div>
                         </div>
@@ -158,13 +140,7 @@ export default class Waiting extends Component {
                                   <p className="card-text">Marius Oelsching</p>
                                 </Link> 
                               </div>
-                              {/* <a>
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              </a> */}
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                             </div>
                           </div>
                         </div>
@@ -189,13 +165,7 @@ export default class Waiting extends Component {
                                   <p className="card-text">Marius Oelsching</p>
                                 </Link> 
                               </div>
-                              {/* <a>
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              </a> */}
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                             </div>
                           </div>
                         </div>
@@ -220,13 +190,7 @@ export default class Waiting extends Component {
                                   <p className="card-text">Marius Oelsching</p>
                                 </Link> 
                               </div>
-                              {/* <a>
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              </a> */}
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                             </div>
                           </div>
                         </div>
@@ -251,13 +215,7 @@ export default class Waiting extends Component {
                                   <p className="card-text">Marius Oelsching</p>
                                 </Link> 
                               </div>
-                              {/* <a>
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              </a> */}
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                             </div>
                           </div>
                         </div>
@@ -282,13 +240,7 @@ export default class Waiting extends Component {
                                   <p className="card-text">Marius Oelsching</p>
                                 </Link> 
                               </div>
-                              {/* <a>
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              </a> */}
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                             </div>
                           </div>
                         </div>
@@ -313,13 +265,7 @@ export default class Waiting extends Component {
                                   <p className="card-text">Marius Oelsching</p>
                                 </Link> 
                               </div>
-                              {/* <a>
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              </a> */}
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                             </div>
                           </div>
                         </div>

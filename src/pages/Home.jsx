@@ -83,28 +83,7 @@ export default class Index extends Component {
                             </Link> 
                         </div>
                         <p className="card-text">
-                          {/* <a>
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFDB7E" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFDB7E" }}
-                            />
-                          </a> */}
+                          <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>  
                         </p>
                       </div>
                     </div>
@@ -135,28 +114,7 @@ export default class Index extends Component {
                             </Link> 
                         </div>
                         <p className="card-text">
-                          {/* <a>
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFDB7E" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFDB7E" }}
-                            />
-                          </a> */}
+                          <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                         </p>
                       </div>
                     </div>
@@ -187,28 +145,7 @@ export default class Index extends Component {
                             </Link> 
                         </div>
                         <p className="card-text">
-                          {/* <a>
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFDB7E" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFDB7E" }}
-                            />
-                          </a> */}
+                          <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                         </p>
                       </div>
                     </div>
@@ -237,29 +174,8 @@ export default class Index extends Component {
                             </Link> 
                         </div>
                        <p className="card-text">
-                          {/* <a>
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFB800" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFDB7E" }}
-                            />
-                            <span
-                              className="fa fa-star checked"
-                              style={{ color: "#FFDB7E" }}
-                            />
-                          </a> */}
-                        </p>
+                          <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                      </p>
                       </div>
                     </div>
                   </div>
@@ -301,15 +217,10 @@ export default class Index extends Component {
                               <Link to="/description1" style={{color: 'black'}}> 
                                 <p className="card-title font-weight-bold">Jak Of The bushveld</p>
                                 <p className="card-text">Marius Oelsching</p>
-                              </Link> 
+                              </Link>  
                             </div> 
-                            {/* <a>
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                            </a> */}
+                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                            
                           </div>
                         </div>
                       </div>
@@ -336,13 +247,7 @@ export default class Index extends Component {
                                 <p className="card-text">Marius Oelsching</p>
                               </Link> 
                             </div> 
-                            {/* <a>
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                            </a> */}
+                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                           </div>
                         </div>
                       </div>
@@ -369,13 +274,7 @@ export default class Index extends Component {
                                 <p className="card-text">Marius Oelsching</p>
                               </Link> 
                             </div>
-                            {/* <a>
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                            </a> */}
+                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>  
                           </div>
                         </div>
                       </div>
@@ -402,13 +301,7 @@ export default class Index extends Component {
                                 <p className="card-text">Marius Oelsching</p>
                               </Link> 
                             </div> 
-                            {/* <a>
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                            </a> */}
+                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                           </div>
                         </div>
                       </div>
@@ -435,13 +328,7 @@ export default class Index extends Component {
                                 <p className="card-text">Marius Oelsching</p>
                               </Link> 
                             </div> 
-                            {/* <a>
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                            </a> */}
+                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                           </div>
                         </div>
                       </div>
@@ -468,13 +355,7 @@ export default class Index extends Component {
                                 <p className="card-text">Marius Oelsching</p>
                               </Link> 
                             </div> 
-                            {/* <a>
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                            </a> */}
+                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                           </div>
                         </div>
                       </div>

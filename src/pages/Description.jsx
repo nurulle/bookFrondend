@@ -48,13 +48,7 @@ export default class Waiting extends Component {
                 <div className="column" style={{marginLeft: '10vh'}}>
                   <h1> At the Going Down of the Sun</h1>
                   <div style={{fontSize: '5vh', color: 'gray'}}>Maruis Oelsching</div><br />
-                  {/* <a>
-                    <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                    <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                    <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                    <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                    <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                  </a> */}
+                  <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                   <table className="table" style={{marginTop: '5vh'}}>
                     <tbody>
                       <tr>
