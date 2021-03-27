@@ -105,12 +105,12 @@ export default class Waiting extends Component {
                         <div className="card">
                           <div className="row no-gutters">
                             <div className="col-md-3">
-                              <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_idooqp.png" />
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_idooqp.png" />
                             </div>
                             <div className="col" style={{marginLeft: '2vh', marginTop: '1vh'}}>
                               <div className="card-block ml-1">
-                                <a className="ml-4" style={{marginTop: '1vh'}}>Jak OF The Bushveld</a><br />
-                                <a className="ml-4">Marius Oelsching</a><br />
+                                <div className="ml-4" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div>
+                                <div className="ml-4">Marius Oelsching</div><br />
                                 <div>
                                   <Link to="/confirmation" style={{color: 'white'}}> 
                                     <Button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}>Detail</Button>               
@@ -127,12 +127,12 @@ export default class Waiting extends Component {
                           <div className="card">
                             <div className="row no-gutters">
                               <div className="col-md-3">
-                                <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image11_xgjqat.png" />
+                                <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image11_xgjqat.png" />
                               </div>
                               <div className="col" style={{marginLeft: '1vh', marginTop: '1vh'}}>
                                 <div className="card-block ml-1">
-                                  <a className="ml-4" style={{marginTop: '1vh'}}>Jak OF The Bushveld</a><br />
-                                  <a className="ml-4">Marius Oelsching</a><br />
+                                  <div className="ml-4" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div>
+                                  <div className="ml-4">Marius Oelsching</div><br/>
                                   <div>
                                     <Link to="/confirmation" style={{color: 'white'}}> 
                                       <Button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}>Detail</Button>               
@@ -150,12 +150,12 @@ export default class Waiting extends Component {
                           <div className="card">
                             <div className="row no-gutters">
                               <div className="col-md-3">
-                                <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_1_kceqv9.png" />
+                                <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_1_kceqv9.png" />
                               </div>
                               <div className="col" style={{marginLeft: '1vh', marginTop: '1vh'}}>
                                 <div className="card-block ml-1 ml-2">
-                                  <a className="ml-3" style={{marginTop: '1vh'}}>Jak OF The Bushveld</a><br />
-                                  <a className="ml-3">Marius Oelsching</a><br />
+                                  <div className="ml-3" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div>
+                                  <div className="ml-3">Marius Oelsching</div><br />
                                   <div>
                                     <Link to="/confirmation" style={{color: 'white'}}> 
                                       <Button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}>Detail</Button>               

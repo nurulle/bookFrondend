@@ -16,6 +16,7 @@ import Search from "../src/pages/Search"
 import Uploadbook from "../src/pages/Uploadbook"
 import Waiting from "../src/pages/Waiting"
 import WaitingBorrow from "../src/pages/WaitingBorrow"
+import Coba from "../src/pages/coba"
 
 // import ReactStars from "react-rating-stars-component";
 
@@ -48,7 +49,8 @@ function App() {
       <Route path="/upload" component={Uploadbook}/>
       <Route path="/waiting" component={Waiting}/>
       <Route path="/waitingborrow" component={WaitingBorrow}/>
-
+      <Route path="/coba" component={Coba}/>
+     
 
       {/* <ReactStars {...firstExample} /> */}
 

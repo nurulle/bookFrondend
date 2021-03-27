@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom"
-import { Navbar, Form, FormControl, Button, Image, } from 'react-bootstrap'
+import { Navbar, Form, FormControl, Image, } from 'react-bootstrap'
 
 export default class WaitingBorrow extends Component {
   render() {
@@ -107,13 +107,13 @@ export default class WaitingBorrow extends Component {
                       <div className="card">
                         <div className="row no-gutters">
                           <div className="col-md-3">
-                            <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_idooqp.png" />
+                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_idooqp.png" />
                           </div>
                           <div className="col" style={{ marginLeft: '3vh', marginTop: '1vh' }}>
                             <div className="card-block ml-1">
-                              <a className="ml-3" style={{ marginTop: '1vh' }}>Jak OF The Bushveld</a><br />
-                              <a className="ml-3">Marius Oelsching</a><br />
-                              <a className="ml-3" style={{ color: 'red' }}>Waiting Confirm </a>
+                              <div className="ml-3" style={{ marginTop: '1vh' }}>Jak OF The Bushveld</div>
+                              <div className="ml-3">Marius Oelsching</div>
+                              <div className="ml-3" style={{ color: 'red' }}>Waiting Confirm </div>
                             </div>
                           </div>
                         </div>
@@ -125,13 +125,13 @@ export default class WaitingBorrow extends Component {
                         <div className="card">
                           <div className="row no-gutters">
                             <div className="col-md-3">
-                              <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image11_xgjqat.png" />
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image11_xgjqat.png" />
                             </div>
                             <div className="col" style={{ marginLeft: '2vh', marginTop: '1vh' }}>
                               <div className="card-block ml-1">
-                                <a className="ml-3" style={{ marginTop: '1vh' }}>Jak OF The Bushveld</a><br />
-                                <a className="ml-3">Marius Oelsching</a><br />
-                                <a className="ml-3" style={{ color: 'red' }}>Waiting Confirm </a>
+                                <div className="ml-3" style={{ marginTop: '1vh' }}>Jak OF The Bushveld</div>
+                                <div className="ml-3">Marius Oelsching</div>
+                                <div className="ml-3" style={{ color: 'red' }}>Waiting Confirm </div>
                               </div>
                             </div>
                           </div>
@@ -144,13 +144,13 @@ export default class WaitingBorrow extends Component {
                         <div className="card">
                           <div className="row no-gutters">
                             <div className="col-md-3">
-                              <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_1_kceqv9.png" />
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_1_kceqv9.png" />
                             </div>
                             <div className="col" style={{ marginLeft: '2vh', marginTop: '1vh' }}>
                               <div className="card-block ml-1">
-                                <a className="ml-3" style={{ marginTop: '1vh' }}>Jak OF The Bushveld</a><br />
-                                <a className="ml-3">Marius Oelsching</a><br />
-                                <a className="ml-3" style={{ color: 'red' }}>Waiting Confirm </a>
+                                <div className="ml-3" style={{ marginTop: '1vh' }}>Jak OF The Bushveld</div>
+                                <div className="ml-3">Marius Oelsching</div>
+                                <div className="ml-3" style={{ color: 'red' }}>Waiting Confirm </div>
                               </div>
                             </div>
                           </div>

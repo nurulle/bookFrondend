@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from "react-router-dom"
-import { Navbar,Form,FormControl,Button, Image, } from 'react-bootstrap'
+import { Navbar,Form,FormControl, Image, } from 'react-bootstrap'
 
 
 export default class Waiting extends Component {
@@ -96,7 +96,7 @@ export default class Waiting extends Component {
                 <div className="col-8 d-flex justify-content-center align-items-center">
                     <div className="d-flex justify-content-center align-items-center flex-column" style={{height: '50%', width: '70%'}}>
                        
-                        <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" alt className="avatar" style={{verticalAlign: 'middle', width: 100, height: 100, borderRadius: 50}} /> 
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" alt className="avatar" style={{verticalAlign: 'middle', width: 100, height: 100, borderRadius: 50}} /> 
                         
                        
                         <div style={{marginTop: '10vh'}}>

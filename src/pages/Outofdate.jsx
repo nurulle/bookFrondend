@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from "react-router-dom"
-import { Navbar,Form,FormControl,Button, Image, } from 'react-bootstrap'
+import { Navbar,Form,FormControl, Image, } from 'react-bootstrap'
 
 
 export default class Waiting extends Component {
@@ -104,14 +104,14 @@ export default class Waiting extends Component {
                         <div className="card">
                           <div className="row no-gutters">
                             <div className="col-md-3">
-                              <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_idooqp.png" />
+                              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_idooqp.png" />
                             </div>
                             <div className="col" style={{marginLeft: '3vh', marginTop: '1vh'}}>
                               <div className="card-block ml-1">
-                                <a className="ml-2" style={{marginTop: '1vh'}}>Jak OF The Bushveld</a><br />
-                                <a className="ml-2">Marius Oelsching</a><br />
-                                <a className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>Start Date 1 May 2020</a><br />
-                                <a className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>End Date 7 May 2020 </a>
+                                <div className="ml-2" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div>
+                                <div className="ml-2">Marius Oelsching</div>
+                                <div className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>Start Date 1 May 2020</div>
+                                <div className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>End Date 7 May 2020 </div>
                               </div>
                             </div>
                           </div>
@@ -123,14 +123,14 @@ export default class Waiting extends Component {
                           <div className="card">
                             <div className="row no-gutters">
                               <div className="col-md-3">
-                                <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image11_xgjqat.png" />
+                                <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image11_xgjqat.png" />
                               </div>
                               <div className="col" style={{marginLeft: '3vh', marginTop: '1vh'}}>
                                 <div className="card-block ">
-                                  <a className="ml-2" style={{marginTop: '1vh'}}>Jak OF The Bushveld</a><br />
-                                  <a className="ml-2">Marius Oelsching</a><br />
-                                  <a className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>Start Date 1 May 2020</a><br />
-                                  <a className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>End Date 7 May 2020 </a>
+                                  <div className="ml-2" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div><br />
+                                  <div className="ml-2">Marius Oelsching</div><br />
+                                  <div className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>Start Date 1 May 2020</div><br />
+                                  <div className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>End Date 7 May 2020 </div>
                                 </div>
                               </div>
                             </div>
@@ -143,14 +143,14 @@ export default class Waiting extends Component {
                           <div className="card">
                             <div className="row no-gutters">
                               <div className="col-md-3">
-                                <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_1_kceqv9.png" />
+                                <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_1_kceqv9.png" />
                               </div>
                               <div className="col" style={{marginLeft: '2vh', marginTop: '1vh'}}>
                               <div className="card-block ml-1">
-                                <a className="ml-2" style={{marginTop: '1vh'}}>Jak OF The Bushveld</a><br />
-                                <a className="ml-2">Marius Oelsching</a><br />
-                                <a className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>Start Date 1 May 2020</a><br />
-                                <a className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>End Date 7 May 2020 </a>
+                                <div className="ml-2" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div><br />
+                                <div className="ml-2">Marius Oelsching</div><br />
+                                <div className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>Start Date 1 May 2020</div><br />
+                                <div className="ml-2" style={{color: 'rgb(105, 104, 104)'}}>End Date 7 May 2020 </div>
                               </div>
                             </div>
                             </div>

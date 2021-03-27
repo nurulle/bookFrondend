@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from "react-router-dom"
-import { Navbar,Form,FormControl,Button, Image, } from 'react-bootstrap'
+import { Navbar,Form,FormControl, Image, } from 'react-bootstrap'
 
 
 export default class Waiting extends Component {

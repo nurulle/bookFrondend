@@ -40,12 +40,13 @@ export default class Waiting extends Component {
             </Navbar>  
             <div className="row" style={{marginLeft: '40vh', marginTop: '10vh'}}>
               <div className="column">
-                <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627812/chunin/image12_l7znce.png" />
+                <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627812/chunin/image12_l7znce.png" />
               </div>
               <div className="column" style={{marginLeft: '10vh'}}>
                 <h1> At the Going Down of the Sun</h1>
-                <a style={{fontSize: '5vh', color: 'gray'}}>Maruis Oelsching</a><br />
-                <a><b>Bororrwing Detail</b></a><br />
+                <div style={{fontSize: '5vh', color: 'gray'}}>Maruis Oelsching</div><br />
+                   
+                <b>Borrowing Detail</b><br />
                 <table className="table">
                   <tbody>
                     <tr>

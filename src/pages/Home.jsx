@@ -1,16 +1,29 @@
 import React, { Component } from 'react'
 import {Link} from "react-router-dom"
-import { Navbar,Form,FormControl,Button, Image, } from 'react-bootstrap'
+import { Navbar,Form,FormControl, Image, } from 'react-bootstrap'
 // import { FaSearch } from "react-icons/fa";
 import image10 from '../assets/img/image10.png';
 import image13 from '../assets/img/image13.png';
 import image5 from '../assets/img/image5.png';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 export default class Index extends Component {
     render() {
+      const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      };
+
       return (
         <>
+        
          
              
 
@@ -42,144 +55,161 @@ export default class Index extends Component {
             
           </Navbar>   
 
+{/*  */}
 
-
-
-            <div>
-              <div className="container">
+         <div className="container">
                 <h5 className="mt-4">Popular</h5>
               </div>
-              <div className="my-slider">
 
-                <div className="slide-item">
-                  <div className="card m-2 bg-linear-red" style={{maxWidth: '540', background: '#7A284C'}}>
-                    <div className="row no-gutters">
-                      <div className="col-12 col-md-4 ">
-                        <div>
+          <Slider {...settings}>
+            <div>
+              <div className="slide-item">
+                <div className="card m-2 bg-linear-red" style={{ maxWidth: 540, background: "#7A284C" }}>
+                  <div className="row no-gutters">
+                    <div className="col-12 col-md-4 ">
+                    <div>
                           <Link to="/description1"> 
-                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627810/chunin/image3_izfo32.png" style={{width: '150', height: '200', marginLeft: '1vh'}}/>
+                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627810/chunin/image3_izfo32.png" style={{width: 150, height: 200, marginLeft: '1vh'}}/>
                           </Link> 
                         </div>
-                      </div>
+                    </div>
 
-                      <div className="col-12 col-md-5">
-                        <div className="card-body">
-                          <div>
+                    <div className="col-12 col-md-5">
+                      <div className="card-body">
+                        <div>
                             <Link to="/description1" style={{color: 'black'}}> 
-                              <h5 className="card-title"> At The Going Down of the Sun</h5>
+                              <h5 className="card-title"> aaAt The Going Down of the Sun</h5>
                               <p className="card-text">Marius Oelsching</p>
                             </Link> 
-                          </div>
-                          <p className="card-text">
-                            {/* <a>
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                            </a> */}
-                          </p>
                         </div>
+                        <p className="card-text">
+                          {/* <a>
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFDB7E" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFDB7E" }}
+                            />
+                          </a> */}
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div>
 
-                <div className="slide-item">
-                  <div className="card m-2 bg-linear-blue" style={{maxWidth: '540', background: '#6E79E5'}}>
-                    <div className="row no-gutters">
-                      <div className="col-12 col-md-4 ">
-                        <div>
+
+              <div className="slide-item">
+                <div className="card m-2 bg-linear-blue" style={{ maxWidth: 540, background: "#6E79E5" }}>
+                  <div className="row no-gutters">
+                    <div className="col-12 col-md-4 ">
+                         <div>
                           <Link to="/description1"> 
-                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_idooqp.png" style={{width: '150', height: '200', marginLeft: '1vh'}}/>
+                            <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627811/chunin/image10_idooqp.png" style={{width: 150, height: 200, marginLeft: '1vh'}}/>
                           </Link> 
                         </div>
-                      </div>
+                    </div>
 
-                      <div className="col-12 col-md-5">
-                        <div className="card-body">
-                          <div>
+                    <div className="col-12 col-md-5">
+                      <div className="card-body">
+                        <div>
                             <Link to="/description1" style={{color: 'black'}}> 
                               <h5 className="card-title"> At The Going Down of the Sun</h5>
                               <p className="card-text">Marius Oelsching</p>
                             </Link> 
-                          </div>
-                          <p className="card-text">
-                            {/* <a>
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                            </a> */}
-                          </p>
                         </div>
+                        <p className="card-text">
+                          {/* <a>
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFDB7E" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFDB7E" }}
+                            />
+                          </a> */}
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div>
 
-                <div className="slide-item">
-                  <div className="card m-2 bg-linear-pink" style={{maxWidth: '540', background: '#F7E9E0'}}>
-                    <div className="row no-gutters">
-                      <div className="col-12 col-md-4 ">
+
+              <div className="slide-item">
+                <div className="card m-2 bg-linear-pink" style={{ maxWidth: 540, background: "#F7E9E0" }}>
+                  <div className="row no-gutters">
+                    <div className="col-12 col-md-4 ">
                         <div>
                           <Link to="/description1"> 
-                            <Image src={image13} style={{width: '150', height: '200', marginLeft: '1vh'}}/>
+                            <Image src={image13} style={{width: 150, height: 200, marginLeft: '1vh'}}/>
                           </Link> 
                         </div>
-                      </div>
-                      <div className="col-12 col-md-5">
-                        <div className="card-body">
-                          <div>
-                            <Link to="/description1" style={{color: 'black'}}> 
-                              <h5 className="card-title"> At The Going Down of the Sun</h5>
-                              <p className="card-text">Marius Oelsching</p>
-                            </Link> 
-                          </div>
-                          <p className="card-text">
-                            {/* <a>
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                            </a> */}
-                          </p>
-                        </div>
-                      </div>
                     </div>
-                  </div>
-                </div>
 
-                <div className="slide-item">
-                  <div className="card m-2 bg-linear-red" style={{maxWidth: '540', background: '#7A284C'}}>
-                    <div className="row no-gutters">
-                      <div className="col-12 col-md-4 ">
+                    <div className="col-12 col-md-5">
+                      <div className="card-body">
                         <div>
-                          <Link to="/description1"> 
-                            <Image src={image10} style={{width: '150', height: '200', marginLeft: '1vh'}}/>
-                          </Link> 
-                        </div>
-                      </div>
-                      <div className="col-12 col-md-5">
-                        <div className="card-body">
-                          <div>
                             <Link to="/description1" style={{color: 'black'}}> 
                               <h5 className="card-title"> At The Going Down of the Sun</h5>
                               <p className="card-text">Marius Oelsching</p>
                             </Link> 
-                          </div>
-                          <p className="card-text">
-                            {/* <a>
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                              <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                            </a> */}
-                          </p>
                         </div>
+                        <p className="card-text">
+                          {/* <a>
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFDB7E" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFDB7E" }}
+                            />
+                          </a> */}
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -187,6 +217,58 @@ export default class Index extends Component {
               </div>
             </div>
 
+            <div>
+              <div className="slide-item">
+                <div className="card m-2 bg-linear-red" style={{ maxWidth: 540, background: "#7A284C" }}>
+                  <div className="row no-gutters">
+                    <div className="col-12 col-md-4 ">
+                        <div>
+                          <Link to="/description1"> 
+                            <Image src={image10} style={{width: 150, height: 200, marginLeft: '1vh'}}/>
+                          </Link> 
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-5">
+                      <div className="card-body">
+                        <div>
+                            <Link to="/description1" style={{color: 'black'}}> 
+                              <h5 className="card-title"> At The Going Down of the Sun</h5>
+                              <p className="card-text">Marius Oelsching</p>
+                            </Link> 
+                        </div>
+                       <p className="card-text">
+                          {/* <a>
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFB800" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFDB7E" }}
+                            />
+                            <span
+                              className="fa fa-star checked"
+                              style={{ color: "#FFDB7E" }}
+                            />
+                          </a> */}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Slider>
+
+            
 
 
 

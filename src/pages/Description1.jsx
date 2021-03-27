@@ -43,11 +43,11 @@ export default class Waiting extends Component {
             <div>
               <div className="row" style={{marginLeft: '40vh', marginTop: '10vh', marginRight: '10vh'}}>
                 <div className="column">
-                  <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627812/chunin/image12_l7znce.png" />
+                  <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627812/chunin/image12_l7znce.png" />
                 </div>
                 <div className="column" style={{marginLeft: '10vh'}}>
                   <h1> At the Going Down of the Sun</h1>
-                  <a style={{fontSize: '5vh', color: 'gray'}}>Maruis Oelsching</a><br />
+                  <div style={{fontSize: '5vh', color: 'gray'}}>Maruis Oelsching</div><br />
                   {/* <a>
                     <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                     <span className="fa fa-star checked" style={{color: '#FFB800'}} />
@@ -83,6 +83,7 @@ export default class Waiting extends Component {
 
                 </div>
               </div>
+
               <div className="row" style={{marginLeft: '38vh', marginTop: '10vh', marginRight: '10vh'}}>
                 <div className="col" style={{marginTop: '10vh'}}>
                   <h3 className="h3"><b>Description</b></h3>
@@ -95,23 +96,30 @@ export default class Waiting extends Component {
                     semper diam. Gravida diam sit quisque nulla.</p>
                 </div>
               </div>
+
               <div className="row" style={{marginLeft: '40vh', marginTop: '10vh', marginRight: '10vh'}}>
                 <div className="column">
                   <h4>Discussion</h4>
-                  <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" alt className="avatar" style={{verticalAlign: 'middle', width: 50, height: 50, borderRadius: 50}} />
+                  <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" alt className="avatar" style={{verticalAlign: 'middle', width: 50, height: 50, borderRadius: 50}} />
                 </div>
                 <div className="column" style={{marginLeft: '10vh'}}>
                   <div className="form-group" style={{width: 800, marginTop: '5vh'}}>
                     <input type="text" className="form-control" placeholder="Type Here" style={{border: '1px solid color = #1f81DF', height: 100, paddingLeft: 50}} />
                   </div>
-                  <a href="javascript: void(0)" className="btn w-50px" style={{backgroundColor: '#1f81DF', color: 'white', borderRadius: 20, width: 150, height: 40, marginLeft: '100vh'}}>Send</a>
+                  <div>
+                    <Link to="/description1"> 
+                        <Button lassName="btn w-50px" style={{backgroundColor: '#1f81DF', color: 'white', borderRadius: 20, width: 150, height: 40, marginLeft: '100vh'}}>Send</Button>               
+                    </Link> 
+                  </div>
+                 
                 </div>
               </div>
+
               <div className="container" style={{marginLeft: '38vh'}}>
                 <h4>Total 777</h4>
                 <div className="row">
                   <div className="col-2 col-md-1">
-                    <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" style={{width: 50, height: 50}} alt />
+                    <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" style={{width: 50, height: 50}} alt />
                   </div>
                   <div className="col-10 col-md-11">
                     <p className="font-weight-bold mt-2">Alif ba ta</p>
@@ -121,8 +129,9 @@ export default class Waiting extends Component {
                       eget elit. Pellentesque ut et placerat integer venenatis, urna.
                     </p>
                   </div>
+                  
                   <div className="col-2 col-md-1">
-                    <img src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" style={{width: 50, height: 50}} alt />
+                    <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" style={{width: 50, height: 50}} alt />
                   </div>
                   <div className="col-10 col-md-11">
                     <p className="font-weight-bold mt-2">Alif ba ta</p>
